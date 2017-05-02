@@ -11,3 +11,115 @@ Text Domain:	 Christ-For-The-Tribes
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+
+.custom-logo-link img {
+    max-width: 450px;
+    border-radius: 50%;
+}
+
+.panel-image {
+height: 20vh;
+max-height: 1200px;
+}
+
+/* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
+.background-fixed .panel-image {
+    background-attachment: scroll;
+}
+
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe {
+    position: relative;
+}
+
+@media screen and (min-width: 20em) {
+    .wrap {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .has-header-image.twentyseventeen-front-page .custom-header,
+    .has-header-video.twentyseventeen-front-page .custom-header,
+    .has-header-image.home.blog .custom-header,
+    .has-header-video.home.blog .custom-header {
+        height: 30vh;
+    }
+
+    .custom-logo-link img {
+        max-width: 450px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+
+    .panel-content .entry-header {
+        margin-bottom: 4.5em;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    .wrap {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .has-header-image.twentyseventeen-front-page .custom-header,
+    .has-header-video.twentyseventeen-front-page .custom-header,
+    .has-header-image.home.blog .custom-header,
+    .has-header-video.home.blog .custom-header {
+        height: 30vh;
+    }
+
+    .custom-logo-link img {
+        max-width: 450px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+
+    .panel-content .entry-header {
+        margin-bottom: 4.5em;
+    }
+
+    .site-footer .widget-area {
+        padding-bottom: 2em;
+        padding-top: 2em;
+        padding-left: 3em;
+        padding-right: 3em;
+        max-width: 950px;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .wrap {
+        max-width: 950px;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .has-header-image.twentyseventeen-front-page .custom-header,
+    .has-header-video.twentyseventeen-front-page .custom-header,
+    .has-header-image.home.blog .custom-header,
+    .has-header-video.home.blog .custom-header {
+        height: 40vh;
+    }
+
+    .page-one-column .panel-content .wrap {
+        padding: 4em 3em;
+        max-width: 1000px;
+    }
+
+    .site-footer .widget-area {
+        padding-bottom: 2em;
+        padding-top: 2em;
+        padding-left: 2em;
+        max-width: 1000px;
+    }
+
+    .social-navigation {
+        clear: left;
+        float: left;
+        margin-bottom: 0;
+        padding-left: 2em;
+        width: 36%;
+    }
+}
